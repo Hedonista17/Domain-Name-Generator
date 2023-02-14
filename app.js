@@ -7,7 +7,7 @@ pronom.forEach((item) => {
   adjetivos.forEach((item2) => {
     nombres.forEach((item3) => {
       dominios.forEach((item4) => {
-        console.log(item+item2+item3+item4);
+        console.log(`${item}${item2}${item3}${item4}`); 
       });
     });
   });
